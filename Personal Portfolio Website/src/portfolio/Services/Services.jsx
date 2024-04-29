@@ -1,3 +1,5 @@
+import './Services.css'
+
 import { faAndroid } from '@fortawesome/free-brands-svg-icons'
 import { faCode, faPalette } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,7 +12,7 @@ function Services() {
 
       <div className="services-container">
         <div className="services-box">
-          <FontAwesomeIcon icon={faCode} />
+          <FontAwesomeIcon className='icon' icon={faCode} />
           <h3>Web Development</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illo, eos magnam voluptatibus, fuga ratione consequuntur dolorem tenetur ducimus fugiat nostrum maiores deserunt quibusdam? Laboriosam.
@@ -19,7 +21,7 @@ function Services() {
         </div>
 
         <div className="services-box">
-          <FontAwesomeIcon icon={faPalette} />
+          <FontAwesomeIcon className='icon'  icon={faPalette} />
           <h3>UI/UX Designing</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illo, eos magnam voluptatibus, fuga ratione consequuntur dolorem tenetur ducimus fugiat nostrum maiores deserunt quibusdam? Laboriosam.
@@ -28,7 +30,7 @@ function Services() {
         </div>
 
         <div className="services-box">
-          <FontAwesomeIcon icon={faAndroid} />
+          <FontAwesomeIcon className='icon'  icon={faAndroid} />
           <h3>App Development</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus illo, eos magnam voluptatibus, fuga ratione consequuntur dolorem tenetur ducimus fugiat nostrum maiores deserunt quibusdam? Laboriosam.

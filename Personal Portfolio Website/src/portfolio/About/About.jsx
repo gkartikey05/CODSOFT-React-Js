@@ -1,3 +1,5 @@
+import './About.css';
+
 import { Link } from "react-router-dom";
 
 import AboutPhoto from '../../assets/About-Picture.jpg';

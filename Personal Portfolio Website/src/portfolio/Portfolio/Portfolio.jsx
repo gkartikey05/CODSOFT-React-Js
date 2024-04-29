@@ -1,5 +1,8 @@
+import './Portfolio.css'
+
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {Link} from 'react-router-dom'
 
 import Counter from '../../assets/Counter-Web-App.png';
 import GitHub from '../../assets/GitHub-user-finder.png';
@@ -22,7 +25,7 @@ function Portfolio() {
             <p>
               This little project is an user finder web app of GitHub user.
             </p>
-            <FontAwesomeIcon icon={faUpRightFromSquare} />
+            <Link><FontAwesomeIcon className='icon' icon={faUpRightFromSquare} /></Link>
           </div>
         </div>
 
@@ -33,7 +36,7 @@ function Portfolio() {
             <p>
               A tic tac toe game made to play with your friends and family.
             </p>
-            <FontAwesomeIcon icon={faUpRightFromSquare} />
+            <Link><FontAwesomeIcon className='icon' icon={faUpRightFromSquare} /></Link>
           </div>
         </div>
 
@@ -44,7 +47,7 @@ function Portfolio() {
             <p>
               This is a pokemon searching web app used to get pokemon details.
             </p>
-            <FontAwesomeIcon icon={faUpRightFromSquare} />
+            <Link><FontAwesomeIcon className='icon' icon={faUpRightFromSquare} /></Link>
           </div>
         </div>
 
@@ -55,7 +58,7 @@ function Portfolio() {
             <p>
               This web app is used to create strong random password.
             </p>
-            <FontAwesomeIcon icon={faUpRightFromSquare} />
+            <Link><FontAwesomeIcon className='icon' icon={faUpRightFromSquare} /></Link>
           </div>
         </div>
 
@@ -66,7 +69,7 @@ function Portfolio() {
             <p>
               This web app is an instagram login and sign up clone
             </p>
-            <FontAwesomeIcon icon={faUpRightFromSquare} />
+            <Link><FontAwesomeIcon className='icon' icon={faUpRightFromSquare} /></Link>
           </div>
         </div>
 
@@ -77,7 +80,7 @@ function Portfolio() {
             <p>
               This web app is a simple click counter app.
             </p>
-            <FontAwesomeIcon icon={faUpRightFromSquare} />
+            <Link><FontAwesomeIcon className='icon' icon={faUpRightFromSquare} /></Link>
           </div>
         </div>
       </div>
