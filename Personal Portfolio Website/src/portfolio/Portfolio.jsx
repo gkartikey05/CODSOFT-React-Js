@@ -1,23 +1,21 @@
 import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
-import Header from "./Header/Header";
 import Home from "./Home/Home";
-import Portfolio from "./Portfolio/Portfolio";
+import Projects from "./Project/Projects";
 import Services from "./Services/Services";
 
-function Main() {
+function Portfolio() {
   return (
-    <>
-      <Header />
+    <div id="#">
       <Home />
       <About />
       <Services />
-      <Portfolio />
+      <Projects />
       <Contact />
       <Footer />
-    </>
-  )
+    </div>
+  );
 }
 
-export default Main;
+export default Portfolio;

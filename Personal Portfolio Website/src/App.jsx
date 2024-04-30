@@ -1,12 +1,13 @@
-import Main from '../src/portfolio/Main'
+import Header from "./portfolio/Header/Header";
+import CustomRoutes from "./routes/CustomRoutes";
 
 function App() {
-
   return (
     <>
-      <Main />
+      <Header />
+      <CustomRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
