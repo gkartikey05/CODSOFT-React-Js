@@ -1,13 +1,15 @@
 import { useState } from "react";
 
+import "./AddTodo.css";
+
 function AddTodo({ addTodo }) {
   const [inputText, setInputText] = useState("");
 
   return (
-    <div>
+    <div className="add-todo">
       <input
         type="text"
-        placeholder="Add your task"
+        placeholder="Click to add new task..."
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
       />
@@ -17,7 +19,7 @@ function AddTodo({ addTodo }) {
           setInputText("");
         }}
       >
-        Add
+        Create Todo
       </button>
     </div>
   );
