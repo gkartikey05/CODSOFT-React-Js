@@ -1,0 +1,42 @@
+.navbar {
+  padding: .5rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar .social-links {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 2.2rem;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.navbar .nav-right {
+  width: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .user {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.navbar .search {
+  font-size: 2rem;
+}

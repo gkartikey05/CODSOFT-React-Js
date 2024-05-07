@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header .title {
+  z-index: 2;
+  font-size: 5rem;
+  margin-top: 3rem;
+  letter-spacing: .4rem;
+  font-family: 'Lora', serif;
+}
+
+.header img {
+  width: 100vw;
+  height: 70vh;
+  top: -2.8rem;
+  position: relative;
+  object-fit: cover;
+}

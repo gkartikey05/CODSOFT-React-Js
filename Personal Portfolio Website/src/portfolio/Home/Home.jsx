@@ -53,13 +53,10 @@ function Home() {
             with you!
           </p>
           <div className="social-media">
-            <Link
-              to="https://www.linkedin.com/in/kartikey-gupta-4160862b2"
-              target="_blank"
-            >
+            <Link to="https://www.linkedin.com/in/gkartikey05" target="_blank">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </Link>
-            <Link to="https://github.com/guptakartikey" target="_blank">
+            <Link to="https://github.com/gkartikey05" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
             </Link>
             <Link to="https://www.facebook.com/kartikeygupta93" target="_blank">
@@ -76,7 +73,7 @@ function Home() {
             </Link>
           </div>
           <Link
-            to="https://drive.google.com/file/d/16p8z_yJW8mCNwPSt4x2kdyMCTX4gNsq7/view"
+            to="https://drive.google.com/file/d/1rWJPyFOs8hTtEaxQca-wP9dpY83cUUhq/view"
             target="_blank"
             className="btn"
           >

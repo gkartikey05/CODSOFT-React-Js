@@ -31,7 +31,7 @@ function Projects() {
                 This little project is an user finder web app of GitHub user.
               </p>
               <Link
-                to="https://github.com/guptakartikey/Github-User-Finder"
+                to="https://github.com/gkartikey05/Github-User-Finder"
                 target="_blank"
               >
                 <FontAwesomeIcon className="icon" icon={faUpRightFromSquare} />
@@ -47,7 +47,7 @@ function Projects() {
                 A tic tac toe game made to play with your friends and family.
               </p>
               <Link
-                to="https://github.com/guptakartikey/Tic-Tac-Toe-Game"
+                to="https://github.com/gkartikey05/Tic-Tac-Toe-Game"
                 target="_blank"
               >
                 <FontAwesomeIcon className="icon" icon={faUpRightFromSquare} />
@@ -63,7 +63,7 @@ function Projects() {
                 This is a pokemon searching web app used to get pokemon details.
               </p>
               <Link
-                to="https://github.com/guptakartikey/Pokedex"
+                to="https://github.com/gkartikey05/Pokedex"
                 target="_blank"
               >
                 <FontAwesomeIcon className="icon" icon={faUpRightFromSquare} />
@@ -77,7 +77,7 @@ function Projects() {
               <h4>Password Generator</h4>
               <p>This web app is used to create strong random password.</p>
               <Link
-                to="https://github.com/guptakartikey/Password-Generator-Project"
+                to="https://github.com/gkartikey05/Password-Generator-Project"
                 target="_blank"
               >
                 <FontAwesomeIcon className="icon" icon={faUpRightFromSquare} />
@@ -91,7 +91,7 @@ function Projects() {
               <h4>Instagram Clone</h4>
               <p>This web app is an instagram login and sign up clone</p>
               <Link
-                to="https://github.com/guptakartikey/Instagram-Login-Clone"
+                to="https://github.com/gkartikey05/Instagram-Login-Clone"
                 target="_blank"
               >
                 <FontAwesomeIcon className="icon" icon={faUpRightFromSquare} />
@@ -105,7 +105,7 @@ function Projects() {
               <h4>Counter App</h4>
               <p>This web app is a simple click counter app.</p>
               <Link
-                to="https://github.com/guptakartikey/Counter-Web-App"
+                to="https://github.com/gkartikey05/Counter-Web-App"
                 target="_blank"
               >
                 <FontAwesomeIcon className="icon" icon={faUpRightFromSquare} />
