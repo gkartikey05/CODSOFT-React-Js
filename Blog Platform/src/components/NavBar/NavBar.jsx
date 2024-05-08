@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import UserAvatar from "../../assets/user-avatar.jpg";
 
 function NavBar() {
+  const user = true;
   return (
     <div className="navbar">
       <div className="social-links">
@@ -23,14 +24,35 @@ function NavBar() {
       </div>
 
       <div className="nav-links">
-        <Link to="/#home">HOME</Link>
-        <Link to="/#about">ABOUT</Link>
-        <Link to="/#write">WRITE</Link>
-        <Link to="/#contact">CONTACT</Link>
-        <Link to="/#logout">LOGOUT</Link>
+        <Link className="nav-link" to="/">
+          HOME
+        </Link>
+        <Link className="nav-link" to="/about">
+          ABOUT
+        </Link>
+        <Link className="nav-link" to="/write">
+          WRITE
+        </Link>
+        <Link className="nav-link" to="/contact">
+          CONTACT
+        </Link>
+        <Link className="nav-link" to="/logout">
+          {user && "LOGOUT"}
+        </Link>
       </div>
       <div className="nav-right">
-        <img className="user" src={UserAvatar} alt="" />
+        {user ? (
+          <img className="user" src={UserAvatar} alt="" />
+        ) : (
+          <div className="nav-links">
+            <Link className="nav-link" to="/login">
+              LOGIN
+            </Link>
+            <Link className="nav-link" to="/register">
+              REGISTER
+            </Link>
+          </div>
+        )}
         <FontAwesomeIcon className="search" icon={faMagnifyingGlass} />
       </div>
     </div>

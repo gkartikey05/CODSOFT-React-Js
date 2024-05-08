@@ -1,42 +1,58 @@
 .navbar {
-  padding: .5rem 9%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
   top: 0;
+  width: 100%;
   z-index: 100;
+  height: 5rem;
+  display: flex;
+  position: sticky;
+  color: #555555;
   background: #fff;
+  align-items: center;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .navbar .social-links {
+  flex: 3;
   display: flex;
-  gap: 1.2rem;
   font-size: 2.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-icons {
+  margin-right: 1rem;
 }
 
 .navbar .nav-links {
+  flex: 6;
   display: flex;
-  gap: 2.5rem;
   align-items: center;
-  font-size: 1.8rem;
+  justify-content: center;
+}
+
+.navbar .nav-links .nav-link {
   font-weight: 300;
+  font-size: 1.8rem;
+  margin-right: 2rem;
 }
 
 .navbar .nav-right {
-  width: 7.5rem;
+  flex: 3;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 1.8rem;
 }
 
 .navbar .user {
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .navbar .search {
   font-size: 2rem;
+  margin-left: 1.5rem;
 }
